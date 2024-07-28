@@ -1,0 +1,43 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-07-28T13:20:27+07:00",
+    "name": "EGG NODEJS BY AXOOGODS 🥶",
+    "author": "arthurxyz.id@gmail.com",
+    "description": "Egg Nodejs Pterodactyl By AXOO GOD Don't Forget Subscribe Youtube @ArthurXyzx",
+    "features": null,
+    "docker_images": {
+        "ghcr.io\/axoo-god\/yolks:nodejs_20": "ghcr.io\/axoo-god\/yolks:nodejs_20"
+        "ghcr.io\/axoo-god\/yolks:nodejs_21": "ghcr.io\/axoo-god\/yolks:nodejs_21"
+    },
+    "file_denylist": [],
+    "startup": "if [[ -d .git ]] && [[ {{AUTO_UPDATE}} == \"1\" ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then \/usr\/local\/bin\/npm install ${NODE_PACKAGES}; fi; if [[ ! -z ${UNNODE_PACKAGES} ]]; then \/usr\/local\/bin\/npm uninstall ${UNNODE_PACKAGES}; fi; if [ -f \/home\/container\/package.json ]; then \/usr\/local\/bin\/npm install; fi; \/usr\/local\/bin\/${CMD_RUN}",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"running\"\r\n}",
+        "logs": "{}",
+        "stop": "^^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "printf \"\\e[1;31mInstall Successed, START to run server\\n\\033[1;0m\"",
+            "container": "node:latest",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Command Run",
+            "description": "The command to starts the bot.",
+            "env_variable": "CMD_RUN",
+            "default_value": "npm start",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string",
+            "field_type": "text"
+        }
+    ]
+}
