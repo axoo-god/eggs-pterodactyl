@@ -15,9 +15,10 @@ Egg ini dirancang untuk menjalankan aplikasi JavaScript umum apa pun, memungkink
 
 ### [Games](/games)
 
-* [Games](/games)
+* [Games](/games/GTA/samp)
   * `ghcr.io/axoo-god/games:samp`
 
-### Installers
+### [Installer](/Installer)
 
-`ghcr.io/axoo-god/installer:debian`
+* [Installer](/Installer/debian)
+  * `ghcr.io/axoo-god/installer:debian`
