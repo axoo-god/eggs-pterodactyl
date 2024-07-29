@@ -6,12 +6,18 @@ Egg ini dirancang untuk menjalankan aplikasi JavaScript umum apa pun, memungkink
 ## List Package
 
 
-### Nodejs
+### [Nodejs](/nodejs)
 
-`ghcr.io/axoo-god/yolks:nodejs_20`
+* [Nodejs 20](/nodejs)
+  * `ghcr.io/axoo-god/yolks:nodejs_20`
+* [Nodejs 21](/nodejs)
+  * `ghcr.io/axoo-god/yolks:nodejs_21`
 
-`ghcr.io/axoo-god/yolks:nodejs_21`
+### [Games](/games)
 
-### Games
+* [Games](/games)
+  * `ghcr.io/axoo-god/games:samp`
 
-`ghcr.io/axoo-god/games:samp`
+### Installers
+
+`ghcr.io/axoo-god/installer:debian`
