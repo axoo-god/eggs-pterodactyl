@@ -11,3 +11,7 @@ Egg ini dirancang untuk menjalankan aplikasi JavaScript umum apa pun, memungkink
 `ghcr.io/axoo-god/yolks:nodejs_20`
 
 `ghcr.io/axoo-god/yolks:nodejs_21`
+
+### Games
+
+`ghcr.io/axoo-god/games:samp`
